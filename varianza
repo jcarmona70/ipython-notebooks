@@ -1,0 +1,86 @@
+{
+ "metadata": {
+  "name": "Varianza"
+ },
+ "nbformat": 3,
+ "nbformat_minor": 0,
+ "worksheets": [
+  {
+   "cells": [
+    {
+     "cell_type": "heading",
+     "level": 2,
+     "metadata": {},
+     "source": "Si conocemos el n\u00famero de elementos a leer calcular la media es f\u00e1cil:"
+    },
+    {
+     "cell_type": "code",
+     "collapsed": false,
+     "input": "n=int(raw_input('Introduce el n\u00famero de datos:'))\ni=0\nsuma=0\nwhile i<n:\n    entrada=raw_input('Introduce el siguiente dato:') #leemos el dato\n    suma=suma+float(entrada) #procesamos el dato\n    i=i+1                    #parte del proceso es llevar la cuenta de cuantos van\nprint 'La media es:'+str(suma/n)\n    \n    ",
+     "language": "python",
+     "metadata": {},
+     "outputs": [
+      {
+       "name": "stdout",
+       "output_type": "stream",
+       "stream": "stdout",
+       "text": "Introduce el n\u00famero de datos:3\n"
+      },
+      {
+       "name": "stdout",
+       "output_type": "stream",
+       "stream": "stdout",
+       "text": "Introduce el siguiente dato2.34\n"
+      },
+      {
+       "name": "stdout",
+       "output_type": "stream",
+       "stream": "stdout",
+       "text": "Introduce el siguiente dato3\n"
+      },
+      {
+       "name": "stdout",
+       "output_type": "stream",
+       "stream": "stdout",
+       "text": "Introduce el siguiente dato8\n"
+      },
+      {
+       "output_type": "stream",
+       "stream": "stdout",
+       "text": "La media es:4.44666666667\n"
+      }
+     ],
+     "prompt_number": 2
+    },
+    {
+     "cell_type": "heading",
+     "level": 3,
+     "metadata": {},
+     "source": "Si no sabemos antes de empezar cuantos hay podemos intentar algo como:"
+    },
+    {
+     "cell_type": "code",
+     "collapsed": false,
+     "input": "i=0\nsuma=0\nwhile ....:\n    entrada=raw_input('Introduce el siguiente dato:')\n    suma=suma+float(entrada) #procesamos el dato\n    i=i+1                    #parte del proceso es llevar la cuenta de cuantos van\n    ",
+     "language": "python",
+     "metadata": {},
+     "outputs": []
+    },
+    {
+     "cell_type": "markdown",
+     "metadata": {},
+     "source": "Tenemos dos problemas, si entrada es la contrase\u00f1a 't' debemos parar: eso es f\u00e1cil de solucionar."
+    },
+    {
+     "cell_type": "code",
+     "collapsed": false,
+     "input": "i=0\nsuma=0\nwhile ....:\n    entrada=raw_input('Introduce el siguiente dato:')\n    if entrada!='t':\n        suma=suma+float(entrada) #procesamos el dato\n        i=i+1                    #parte del proceso es llevar la cuenta de cuantos van\n    ",
+     "language": "python",
+     "metadata": {},
+     "outputs": []
+    }
+   ],
+   "metadata": {}
+  }
+ ]
+}
