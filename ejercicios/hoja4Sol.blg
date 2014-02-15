@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: hoja4Sol.aux
+The style file: alpha.bst
+Database file #1: programacion/matematicas/XGR/cites.bib.bib
+Database file #2: programacion/XGR/cites.bib.bib
+You've used 5 entries,
+            2543 wiz_defined-function locations,
+            584 strings with 5061 characters,
+and the built_in function-call counts, 1367 in all, are:
+= -- 115
+> -- 41
+< -- 5
++ -- 11
+- -- 10
+* -- 66
+:= -- 236
+add.period$ -- 14
+call.type$ -- 5
+change.case$ -- 21
+chr.to.int$ -- 5
+cite$ -- 5
+duplicate$ -- 76
+empty$ -- 128
+format.name$ -- 20
+if$ -- 278
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 7
+newline$ -- 27
+num.names$ -- 16
+pop$ -- 45
+preamble$ -- 1
+purify$ -- 30
+quote$ -- 0
+skip$ -- 51
+stack$ -- 0
+substring$ -- 36
+swap$ -- 5
+text.length$ -- 5
+text.prefix$ -- 5
+top$ -- 0
+type$ -- 24
+warning$ -- 0
+while$ -- 10
+width$ -- 8
+write$ -- 60

@@ -1,0 +1,15 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{HLL{\etalchar{+}}92}
+
+\bibitem[Hil99]{FirstCourseCoding-Hill}
+Raymond Hill.
+\newblock {\em A first course in coding theory}.
+\newblock Oxford Clarendon Press, 1999.
+
+\bibitem[HLL{\etalchar{+}}92]{CodingTheoryEssentials-Hoffman-Leonard-Lindner}
+D.~G. Hoffman, D.~A. Leonard, C.~C. Lindner, K.~T. Phelps, C.~A. Rodger, and
+  J.~R. Wall.
+\newblock {\em Coding theory: the essentials}.
+\newblock Marcel Dekker, 1992.
+
+\end{thebibliography}

@@ -1,0 +1,18 @@
+\begin{thebibliography}{Cha99}
+
+\bibitem[AH01]{PiUnleashed-Jorg}
+Jörg Ardnt and Chistoph Haenel.
+\newblock {\em Pi Unleashed}.
+\newblock Springer, 2001.
+
+\bibitem[Bec82]{HistoryPi-Beckmann}
+Petr Beckmann.
+\newblock {\em \{A history of\} $\pi$}.
+\newblock Golem Press, 1982.
+
+\bibitem[Cha99]{HistoryAlgorithms-Chabert}
+Jean-Luc Chabert, editor.
+\newblock {\em A History of Algorithms: From the Pebble to the Microchip}.
+\newblock Springer, 1999.
+
+\end{thebibliography}
