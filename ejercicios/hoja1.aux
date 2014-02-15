@@ -3,20 +3,18 @@
 \catcode`<\active
 \catcode`>\active
 \@nameuse{es@quoting}
-\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
-\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
-\global\let\oldcontentsline\contentsline
-\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
-\global\let\oldnewlabel\newlabel
-\gdef\newlabel#1#2{\newlabelxx{#1}#2}
-\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
-\AtEndDocument{\ifx\hyper@anchor\@undefined
-\let\contentsline\oldcontentsline
-\let\newlabel\oldnewlabel
-\fi}
-\fi}
-\global\let\hyper@last\relax 
-\gdef\HyperFirstAtBeginDocument#1{#1}
+\ifx\hyper@anchor\@undefined
+\global \let \oldcontentsline\contentsline
+\gdef \contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global \let \oldnewlabel\newlabel
+\gdef \newlabel#1#2{\newlabelxx{#1}#2}
+\gdef \newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\let \contentsline\oldcontentsline
+\let \newlabel\oldnewlabel}
+\else
+\global \let \hyper@last\relax 
+\fi
+
 \providecommand*\HyPL@Entry[1]{}
 \HyPL@Entry{0<</S/D>>}
 \select@language{spanish}
@@ -51,17 +49,12 @@
 \newlabel{xrct@programacion.matematicas.geometria.rectangulo-expresiones:rectangulo}{{7}{4}{\relax }{ue@numejer.7}{}}
 \newlabel{xrct@programacion.matematicas.geometria.rectangulo-expresiones:centro}{{7}{4}{\relax }{ue@numejer.7}{}}
 \newlabel{xrct@programacion.matematicas.geometria.rectangulo-paralelo-expresiones}{{8}{4}{\relax }{ue@numejer.8}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Representaci\IeC {\'o}n de tres rect\IeC {\'a}ngulos}}{5}{figure.2}}
-\newlabel{xrct@L@programacion.matematicas.geometria.rectangulo-paralelo-expresiones/rectangulos}{{2}{5}{Representación de tres rectángulos\relax }{figure.2}{}}
-\newlabel{xrct@programacion.matematicas.geometria.rectangulo-paralelo-expresiones:inclusionRectangulos}{{8}{5}{\relax }{figure.2}{}}
-\newlabel{xrct@programacion.matematicas.analisis.comparacionDeReales}{{9}{5}{\relax }{ue@numejer.9}{}}
-\newlabel{xrct@programacion.recreativos.piedraPapelTijera}{{10}{5}{\relax }{ue@numejer.10}{}}
 \bibstyle{alpha}
 \bibdata{programacion/matematicas/geometria/circulosTangentes.xr/cites.bib,programacion/matematicas/geometria/XGR/cites.bib,programacion/matematicas/XGR/cites.bib,programacion/XGR/cites.bib}
 \bibcite{DiabloNumeros-Henzensbergen}{Enz01}
 \bibcite{NuevosPasatiemposMatematicos-Gardner}{Gar94}
 \bibcite{KissPrecise-Soddy}{Sod36}
-\newlabel{xrct@programacion.recreativos.piedraPapelTijera:versionClasica}{{10}{6}{\relax }{ue@numejer.10}{}}
-\newlabel{xrct@programacion.recreativos.piedraPapelTijera:versionAmpliada}{{10}{6}{\relax }{ue@numejer.10}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Resultados del duelo }}{6}{table.1}}
-\newlabel{tabla}{{1}{6}{Resultados del duelo\relax }{table.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Representaci\IeC {\'o}n de tres rect\IeC {\'a}ngulos}}{5}{figure.2}}
+\newlabel{xrct@L@programacion.matematicas.geometria.rectangulo-paralelo-expresiones/rectangulos}{{2}{5}{Representación de tres rectángulos\relax }{figure.2}{}}
+\newlabel{xrct@programacion.matematicas.geometria.rectangulo-paralelo-expresiones:inclusionRectangulos}{{8}{5}{\relax }{figure.2}{}}
+\newlabel{xrct@programacion.matematicas.analisis.comparacionDeReales}{{9}{5}{\relax }{ue@numejer.9}{}}
