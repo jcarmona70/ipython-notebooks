@@ -1,0 +1,99 @@
+%\documentclass[11pt,heading,asymmetric,exercises]{uniexer}
+\documentclass[%
+  11pt,
+  heading,
+  asymmetric,
+  withsolutions,
+  exercises%
+]{uniexer}
+\usepackage{a4wide}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{pst-all}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{codex}
+\usepackage{eurosym}
+\usepackage{latexsym}  
+\usepackage{evenmoreverb}
+\usepackage{amssymb}
+\usepackage{listings}
+\usepackage{hyperref}
+
+
+\input{datosAsignatura}
+\exercita{defs}{doc-number={5},
+  doc-titles?,bibliography?,history?,doc-title={Subprogramas},doc-hint-style=auto}           
+\lstset{basicstyle=\fontsize{8}{9}\selectfont\ttfamily,
+        framerule=0pt,frame=single, %frame=trBL,frameround=ftttm,
+        lineskip=0pt,
+        emptylines=1,
+        showstringspaces=false,
+        escapechar=·
+}
+%\exercita{defs}{language={C++}}
+
+\begin{document}
+
+
+\exercita{base}{programacion}
+
+\vspace*{1em}
+
+
+
+\exercita{load}{programacion.entrenamiento.listas.procedimientos}[*]
+
+\exercita{load}{matematicas.partesDeNumero}[digitos,parteSup,parteInf,ejParteSup,ejParteInf,solPython{sinPot1}]
+
+
+
+\exercita{load}{programacion.entrenamiento.EntradaSalida.cadenasDsimbolos}[*,solPython]
+
+
+
+\exercita{load}{matematicas.char2num}[*,solPython]
+
+\exercita{load}{programacion.ordenacion.traza}[seleccion,piSeleccion,ejSeleccion,insercion,piInsercion,ejInsercion,%
+%                                                mezcla,piMezcla,ejMezcla,%
+%
+                                   solPython]
+
+\exercita{load}{matematicas.estadistica.aproximar-pi}[*,solPython]
+
+\exercita{load}{matematicas.aritmetica.primos.primos-goldbach}[*,solPython]
+
+\exercita{load}{matematicas.aritmetica.primos.generaPrimos{con-lista}}[siguientePrimo,primerosPrimos,fichero,solFichero]
+
+\exercita{load}{matematicas.discreta.trianguloPascal.blanco-negro}[*,solPython]
+
+
+\exercita{load}{programacion.estructurasDatos.array.k-repeticiones}[*,solC++]
+
+\exercita{load}{programacion.estructurasDatos.array.recorridoEspiral}[*,solPython3]
+ 
+\exercita{load}{matematicas.aritmetica.palindromo}[reversoNumero,pisReversoNumero,palindromoNumero,solC++]
+
+\exercita{load}{matematicas.aritmetica.conjeturaPalindromo}[*,solPython]
+
+
+\exercita{load}{programacion.estructurasDatos.array.sumaAcumulada}[*,solC++]
+\exercita{load}{programacion.ordenacion.entropia}[*,solPython]
+
+\exercita{load}{matematicas.aritmetica.primos.primos-1{autor=Cristobal,dificultad=1}}[*,solPython]
+
+\exercita{load}{cotidianos.muchapolicia{label=*}}[*,solC]
+
+\exercita{load}{matematicas.estadistica.juegosPerdedoresGanan{label=*}}[juego1,juego2,juego12,pisVariablesAleatorias,solPascal]
+
+\exercita{load}{criptografia.monoalfabetico{label=*}}[*,solPython]
+\exercita{load}{recreativos.retrato-robot{label=*}}[*,solPascal]
+
+\exercita{load}{programacion.secuencias.repetidos.quita-rafagas}[*,solPascal]
+
+
+\bibliographystyle{alpha}
+
+\end{document}
+
