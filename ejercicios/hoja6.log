@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.9.6)  3 APR 2014 14:06
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.9.6)  3 APR 2014 11:26
 entering extended mode
  %&-line parsing enabled.
-**practica3.tex
-(./practica3.tex
+**hoja6.tex
+(./hoja6.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
 yphenation, loaded.
@@ -531,6 +531,73 @@ Package graphics Info: Driver file: dvips.def on input line 91.
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
+(/home/jcarmona/exercita/latex/pckg/codex.sty
+Package: codex 2002/02/23 2.0 (PIE)
+)
+(/usr/share/texmf-texlive/tex/latex/eurosym/eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box33
+)
+(/usr/share/texmf-texlive/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+(/home/jcarmona/exercita/latex/pckg/evenmoreverb.sty
+Package: evenmoreverb 2002/02/18 v1.0 `even `more'' verbatim facilities
+
+(/usr/share/texmf-texlive/tex/latex/moreverb/moreverb.sty
+Package: moreverb 2008/06/03 v2.3 `more' verbatim facilities
+
+(/usr/share/texmf-texlive/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks23
+\verbatim@line=\toks24
+\verbatim@in@stream=\read2
+)
+\verbatim@out=\write5
+\tab@position=\count132
+\tab@size=\count133
+\listing@line=\count134
+))
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks25
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(/usr/share/texmf-texlive/tex/latex/listings/listings.sty
+\lst@mode=\count135
+\lst@gtempboxa=\box34
+\lst@token=\toks26
+\lst@length=\count136
+\lst@currlwidth=\dimen146
+\lst@column=\count137
+\lst@pos=\count138
+\lst@lostspace=\dimen147
+\lst@width=\dimen148
+\lst@newlines=\count139
+\lst@lineno=\count140
+\lst@maxwidth=\dimen149
+
+(/usr/share/texmf-texlive/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count141
+\lst@skipnumbers=\count142
+\lst@framebox=\box35
+)
+(/usr/share/texmf-texlive/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+)
+(/home/jcarmona/exercita-db/programacion/XGR/lstlocal.cfg))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
 (/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
 
@@ -552,9 +619,9 @@ O)
 (/usr/share/texmf-texlive/tex/latex/oberdiek/xcolor-patch.sty
 Package: xcolor-patch 2009/10/02 xcolor patch
 ))
-\@linkdim=\dimen146
-\Hy@linkcounter=\count132
-\Hy@pagecounter=\count133
+\@linkdim=\dimen150
+\Hy@linkcounter=\count143
+\Hy@pagecounter=\count144
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
@@ -582,7 +649,6 @@ Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
 Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
 t (HO)
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 2864.
 Package hyperref Info: Hyper figures OFF on input line 2975.
 Package hyperref Info: Link nesting OFF on input line 2980.
 Package hyperref Info: Hyper index ON on input line 2983.
@@ -617,24 +683,24 @@ Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 )))
-\Fld@menulength=\count134
-\Field@Width=\dimen147
-\Fld@charsize=\dimen148
-\Field@toks=\toks23
+\Fld@menulength=\count145
+\Field@Width=\dimen151
+\Fld@charsize=\dimen152
+\Field@toks=\toks27
 Package hyperref Info: Hyper figures OFF on input line 4377.
 Package hyperref Info: Link nesting OFF on input line 4382.
 Package hyperref Info: Hyper index ON on input line 4385.
 Package hyperref Info: backreferencing OFF on input line 4392.
-Package hyperref Info: Link coloring ON on input line 4395.
+Package hyperref Info: Link coloring OFF on input line 4397.
 Package hyperref Info: Link coloring with OCG OFF on input line 4402.
 Package hyperref Info: PDF/A mode OFF on input line 4407.
 
 (/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
 )
-\Hy@abspage=\count135
-\c@Item=\count136
-\c@Hfootnote=\count137
+\Hy@abspage=\count146
+\c@Item=\count147
+\c@Hfootnote=\count148
 )
 *hyperref using default driver hdvips*
 (/usr/share/texmf-texlive/tex/latex/hyperref/hdvips.def
@@ -642,210 +708,174 @@ File: hdvips.def 2009/10/09 v6.79a Hyperref driver for dvips
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/pdfmark.def
 File: pdfmark.def 2009/10/09 v6.79a Hyperref definitions for pdfmark specials
-\pdf@docset=\toks24
-\pdf@box=\box33
-\pdf@toks=\toks25
-\pdf@defaulttoks=\toks26
-\Fld@listcount=\count138
+\pdf@docset=\toks28
+\pdf@box=\box36
+\pdf@toks=\toks29
+\pdf@defaulttoks=\toks30
+\Fld@listcount=\count149
 ))
-(/home/jcarmona/exercita/latex/pckg/codex.sty
-Package: codex 2002/02/23 2.0 (PIE)
-)
-(/usr/share/texmf-texlive/tex/latex/eurosym/eurosym.sty
-Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
-\@eurobox=\box34
-)
-(/usr/share/texmf-texlive/tex/latex/base/latexsym.sty
-Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
-\symlasy=\mathgroup4
-LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
-(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
-)
-(/home/jcarmona/exercita/latex/pckg/evenmoreverb.sty
-Package: evenmoreverb 2002/02/18 v1.0 `even `more'' verbatim facilities
+(./datosAsignatura.tex
+(/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)) (./hoja6.aux)
+\openout1 = `hoja6.aux'.
 
-(/usr/share/texmf-texlive/tex/latex/moreverb/moreverb.sty
-Package: moreverb 2008/06/03 v2.3 `more' verbatim facilities
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+\c@lstlisting=\count150
+Package hyperref Info: Link coloring OFF on input line 36.
 
-(/usr/share/texmf-texlive/tex/latex/tools/verbatim.sty
-Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks27
-\verbatim@line=\toks28
-\verbatim@in@stream=\read2
-)
-\verbatim@out=\write5
-\tab@position=\count139
-\tab@size=\count140
-\listing@line=\count141
-))
-(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2009/06/22 v3.00
-
-(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
-\@emptytoks=\toks29
-\symAMSa=\mathgroup5
-\symAMSb=\mathgroup6
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
-))
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
-
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks30
-\ex@=\dimen149
-))
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2000/07/18 v2.13 AMS math features
-\@mathmargin=\skip45
-
-For additional information on amsmath, use the `?' option.
-(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01
-)
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen150
-)
-\inf@bad=\count142
-LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count143
-\leftroot@=\count144
-LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count145
-\DOTSCASE@=\count146
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
-\Mathstrutbox@=\box35
-\strutbox@=\box36
-\big@size=\dimen151
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count147
-\c@MaxMatrixCols=\count148
-\dotsspace@=\muskip11
-\c@parentequation=\count149
-\dspbrk@lvl=\count150
-\tag@help=\toks31
-\row@=\count151
-\column@=\count152
-\maxfields@=\count153
-\andhelp@=\toks32
-\eqnshift@=\dimen152
-\alignsep@=\dimen153
-\tagshift@=\dimen154
-\tagwidth@=\dimen155
-\totwidth@=\dimen156
-\lineht@=\dimen157
-\@envbody=\toks33
-\multlinegap=\skip46
-\multlinetaggap=\skip47
-\mathdisplay@stack=\toks34
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
-) (./datosAsignatura.tex) (./practica3.aux)
-\openout1 = `practica3.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-Package hyperref Info: Link coloring ON on input line 48.
- (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+(/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count154
+\c@section@level=\count151
 )
-LaTeX Info: Redefining \ref on input line 48.
-LaTeX Info: Redefining \pageref on input line 48.
- (./practica3.out)
-(./practica3.out)
+LaTeX Info: Redefining \ref on input line 36.
+LaTeX Info: Redefining \pageref on input line 36.
+ (./hoja6.out)
+(./hoja6.out)
 \@outlinefile=\write6
-\openout6 = `practica3.out'.
+\openout6 = `hoja6.out'.
 
 \AtBeginShipoutBox=\box37
 
-(/home/jcarmona/exercita-db/programacion/practicos/internet/indicePaginasWeb.x
+(/home/jcarmona/exercita-db/programacion/programacion/recursividad/funcionesRec
+ursivasSimples.x
 
-Package exercita Warning: El ejercicio "indicePaginasWeb" necesita el paquete "
-fontenc" on input line 10.
-
-
-Package exercita Warning: El ejercicio "indicePaginasWeb" necesita la opcion "T
-1" para el paquete "fontenc" on input line 10.
+Package exercita Warning: El ejercicio "funcionesRecursivasSimples" necesita el
+ paquete "fontenc" on input line 7.
 
 
-Package exercita Warning: El ejercicio "indicePaginasWeb" necesita el paquete "
-inputenc" on input line 11.
+Package exercita Warning: El ejercicio "funcionesRecursivasSimples" necesita la
+ opcion "T1" para el paquete "fontenc" on input line 7.
 
 
-Package exercita Warning: El ejercicio "indicePaginasWeb" necesita la opcion "l
-atin1" para el paquete "inputenc" on input line 11.
+Package exercita Warning: El ejercicio "funcionesRecursivasSimples" necesita el
+ paquete "inputenc" on input line 8.
 
 
-Package exercita Warning: El ejercicio "indicePaginasWeb" necesita el paquete "
-babel" on input line 12.
+Package exercita Warning: El ejercicio "funcionesRecursivasSimples" necesita la
+ opcion "utf8" para el paquete "inputenc" on input line 8.
 
 
-Package exercita Warning: El ejercicio "indicePaginasWeb" necesita la opcion "s
-panish" para el paquete "babel" on input line 12.
+Package exercita Warning: El ejercicio "funcionesRecursivasSimples" necesita el
+ paquete "babel" on input line 9.
 
-LaTeX Font Info:    Try loading font information for U+lasy on input line 19.
+
+Package exercita Warning: El ejercicio "funcionesRecursivasSimples" necesita la
+ opcion "spanish" para el paquete "babel" on input line 9.
+
+LaTeX Font Info:    Try loading font information for U+lasy on input line 11.
 (/usr/share/texmf-texlive/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 19.
+LaTeX Font Info:    Try loading font information for U+msa on input line 11.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 19.
+LaTeX Font Info:    Try loading font information for U+msb on input line 11.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+))
+(/home/jcarmona/exercita-db/programacion/recreativos/torresdehanoi.x
+
+Package exercita Warning: El ejercicio "torresdehanoi" necesita el paquete "eps
+fig" on input line 8.
+
+
+Package exercita Warning: El ejercicio "torresdehanoi" necesita la opcion "lati
+n1" para el paquete "inputenc" on input line 10.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+
+ []
+
+File: programacion/recreativos/torresdehanoi.xr/torre_a7654321.eps.gz Graphic f
+ile (type eps)
+<programacion/recreativos/torresdehanoi.xr/torre_a7654321.eps.gz>
+File: programacion/recreativos/torresdehanoi.xr/torre_b.eps.gz Graphic file (ty
+pe eps)
+
+<programacion/recreativos/torresdehanoi.xr/torre_b.eps.gz>
+File: programacion/recreativos/torresdehanoi.xr/torre_c.eps.gz Graphic file (ty
+pe eps)
+
+<programacion/recreativos/torresdehanoi.xr/torre_c.eps.gz>
+Overfull \hbox (4.3056pt too wide) in paragraph at lines 50--58
+[][] 
+ []
+
+[1
+
+]
+File: programacion/recreativos/torresdehanoi.xr/torre_a7.eps.gz Graphic file (t
+ype eps)
+ <programacion/recreativos/torresdehanoi.xr/torre_a7.eps.gz>
+File: programacion/recreativos/torresdehanoi.xr/torre_b654321.eps.gz Graphic fi
+le (type eps)
+
+<programacion/recreativos/torresdehanoi.xr/torre_b654321.eps.gz>
+File: programacion/recreativos/torresdehanoi.xr/torre_c.eps.gz Graphic file (ty
+pe eps)
+
+<programacion/recreativos/torresdehanoi.xr/torre_c.eps.gz>
+Overfull \hbox (4.3056pt too wide) in paragraph at lines 70--78
+[][] 
+ []
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 98.
+(/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+))
+(/home/jcarmona/exercita-db/programacion/matematicas/discreta/combinatoria/num-
+comb.x
+
+Package exercita Warning: El ejercicio "num-comb" necesita el paquete "latexsym
+" on input line 10.
+
 )
+(/home/jcarmona/exercita-db/programacion/matematicas/aritmetica/primos/descompo
+sicion-factores-primos.x
 
-! LaTeX Error: Cannot determine size of graphic in programacion/practicos/inter
-net/indicePaginasWeb.xr/portada_google.jpg (no BoundingBox).
+Package exercita Warning: El ejercicio "descomposicion-factores-primos" necesit
+a el paquete "listings" on input line 11.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 ...oogle.jpg}{\includegraphics[width=7cm]{#}}
-                                                  
-? 
-! Emergency stop.
- ...                                              
-                                                  
-l.21 ...oogle.jpg}{\includegraphics[width=7cm]{#}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
- 
+[2] [3])
+(/home/jcarmona/exercita-db/programacion/matematicas/algebra/descomposiciones.x
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 32.
+(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
+ [4])
+(/home/jcarmona/exercita-db/programacion/matematicas/representacionNatural.x)
+[5] (./hoja6.aux) ) 
 Here is how much of TeX's memory you used:
- 10237 strings out of 495062
- 144186 string characters out of 1182645
- 284943 words of memory out of 3000000
- 13149 multiletter control sequences out of 15000+50000
- 17832 words of font info for 55 fonts, out of 3000000 for 9000
+ 11253 strings out of 495062
+ 164432 string characters out of 1182645
+ 333922 words of memory out of 3000000
+ 14129 multiletter control sequences out of 15000+50000
+ 16249 words of font info for 54 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 38i,8n,54p,1066b,320s stack positions out of 5000i,500n,10000p,200000b,50000s
-No pages of output.
+ 38i,12n,72p,284b,528s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on hoja6.dvi (5 pages, 21428 bytes).
