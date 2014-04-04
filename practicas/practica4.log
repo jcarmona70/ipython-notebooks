@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.2.12)  3 APR 2014 14:08
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.9.6)  3 APR 2014 11:47
 entering extended mode
  %&-line parsing enabled.
-**practica3.tex
-(./practica3.tex
+**practica4.tex
+(./practica4.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
 yphenation, loaded.
@@ -746,8 +746,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \mathdisplay@stack=\toks34
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
-) (./datosAsignatura.tex) (./practica3.aux)
-\openout1 = `practica3.aux'.
+) (./datosAsignatura.tex) (./practica4.aux)
+\openout1 = `practica4.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
 LaTeX Font Info:    ... okay on input line 48.
@@ -774,66 +774,101 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 LaTeX Info: Redefining \ref on input line 48.
 LaTeX Info: Redefining \pageref on input line 48.
- (./practica3.out)
-(./practica3.out)
+ (./practica4.out)
+(./practica4.out)
 \@outlinefile=\write6
-\openout6 = `practica3.out'.
+\openout6 = `practica4.out'.
 
 \AtBeginShipoutBox=\box37
 
-(/home/jcarmona/exercita-db/programacion/practicos/internet/indicePaginasWeb.x
+(/home/jcarmona/exercita-db/programacion/matematicas/algebra/polinomios/impleme
+ntacion.x
 
-Package exercita Warning: El ejercicio "indicePaginasWeb" necesita el paquete "
-fontenc" on input line 10.
-
-
-Package exercita Warning: El ejercicio "indicePaginasWeb" necesita la opcion "T
-1" para el paquete "fontenc" on input line 10.
+Package exercita Warning: El ejercicio "implementacion" necesita el paquete "fo
+ntenc" on input line 8.
 
 
-Package exercita Warning: El ejercicio "indicePaginasWeb" necesita el paquete "
-inputenc" on input line 11.
+Package exercita Warning: El ejercicio "implementacion" necesita la opcion "T1"
+ para el paquete "fontenc" on input line 8.
 
 
-Package exercita Warning: El ejercicio "indicePaginasWeb" necesita la opcion "l
-atin1" para el paquete "inputenc" on input line 11.
+Package exercita Warning: El ejercicio "implementacion" necesita el paquete "la
+texsym" on input line 9.
 
 
-Package exercita Warning: El ejercicio "indicePaginasWeb" necesita el paquete "
-babel" on input line 12.
+Package exercita Warning: El ejercicio "implementacion" necesita el paquete "in
+putenc" on input line 10.
 
 
-Package exercita Warning: El ejercicio "indicePaginasWeb" necesita la opcion "s
-panish" para el paquete "babel" on input line 12.
+Package exercita Warning: El ejercicio "implementacion" necesita la opcion "lat
+in1" para el paquete "inputenc" on input line 10.
 
-LaTeX Font Info:    Try loading font information for U+lasy on input line 19.
+
+Package exercita Warning: El ejercicio "implementacion" necesita el paquete "ba
+bel" on input line 11.
+
+
+Package exercita Warning: El ejercicio "implementacion" necesita la opcion "spa
+nish" para el paquete "babel" on input line 11.
+
+
+Package exercita Warning: El ejercicio "implementacion" necesita el paquete "gr
+aphicx" on input line 12.
+
+
+Package exercita Warning: El ejercicio "implementacion" necesita el paquete "co
+dex" on input line 13.
+
+
+Package exercita Warning: El ejercicio "implementacion" necesita el paquete "ps
+tricks" on input line 14.
+
+
+Package exercita Warning: El ejercicio "implementacion" necesita el paquete "ps
+t-node" on input line 15.
+
+
+Package exercita Warning: El ejercicio "implementacion" necesita el paquete "ps
+t-plot" on input line 16.
+
+
+Package exercita Warning: El ejercicio "implementacion" necesita el paquete "mu
+ltido" on input line 17.
+
+LaTeX Font Info:    Try loading font information for U+lasy on input line 25.
 (/usr/share/texmf-texlive/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 19.
+LaTeX Font Info:    Try loading font information for U+msa on input line 25.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 19.
+LaTeX Font Info:    Try loading font information for U+msb on input line 25.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-File: programacion/practicos/internet/indicePaginasWeb.xr/portada_google.ps Gra
-phic file (type eps)
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 198.
 
-<programacion/practicos/internet/indicePaginasWeb.xr/portada_google.ps>
+
+(/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+Overfull \hbox (55.96065pt too wide) in paragraph at lines 208--1367
+\T1/cmr/m/n/10.95 Wikipedia, [][][][][][]) 
+ []
+
 [1
 
-]) [2] (./practica3.aux) ) 
+]) [2] (./practica4.aux) ) 
 Here is how much of TeX's memory you used:
- 10332 strings out of 495062
- 146417 string characters out of 1182644
- 288943 words of memory out of 3000000
- 13240 multiletter control sequences out of 15000+50000
- 19391 words of font info for 57 fonts, out of 3000000 for 9000
+ 10336 strings out of 495062
+ 147139 string characters out of 1182645
+ 292989 words of memory out of 3000000
+ 13255 multiletter control sequences out of 15000+50000
+ 14319 words of font info for 43 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 38i,8n,54p,704b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,6n,54p,455b,473s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on practica3.dvi (2 pages, 9164 bytes).
+Output written on practica4.dvi (2 pages, 8808 bytes).
