@@ -1,0 +1,84 @@
+\documentclass[11pt,heading,asymmetric,%
+               %withsolutions,
+               exercises]{uniexer}
+\usepackage{a4wide}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{pstricks}
+\usepackage{pst-all}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{codex}
+\usepackage{eurosym}
+\usepackage{latexsym}  
+%\usepackage{evenmoreverb}
+\usepackage{sprite}
+\usepackage{alltt}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{chessboard}
+\selectlanguage{spanish}  
+
+\input{datosAsignatura}
+\exercita{defs}{doc-number={7},doc-titles?,history?,bibliography?,doc-history-style=auto,doc-title={Tipos Definidos}}           
+\lstset{basicstyle=\fontsize{8}{9}\selectfont\ttfamily,
+        framerule=0pt,frame=single, %frame=trBL,frameround=ftttm,
+        lineskip=0pt,
+        emptylines=1,
+        showstringspaces=false,
+        escapechar=·
+}
+\begin{document}
+
+
+\exercita{base}{programacion}
+
+\vspace*{1em}
+
+\exercita{load}{cotidianos.floyd}[algoritmo,impleCompleta,solImperativa]
+\exercita{load}{matematicas.algebra.fracciones}[*,solC]
+\exercita{load}{cotidianos.fecha-absoluta{no-intro}}[calculaValor,claseFecha,bucle]
+
+%\exercita{load}{matematicas.algebra.matricial.traspuesta}[*,solC]
+%\exercita{load}{recreativos.dados.dadosnotransitivos}[*,solPythonClass] 
+%\exercita{load}{fisica.centro}[*,solC] % falta solucion Python
+
+\exercita{load}{matematicas.geometria.figurasPlano}[datos,distancias,interseccion,interseccionPuntos,menu,solPython] %
+\exercita{load}{recreativos.ajedrez.juego-caballo}[*]
+
+\exercita{load}{matematicas.algebra.matricial.matrices}[*,solPythonClass]
+%\exercita{load}{programacion.estructurasDatos.array.vectoresVSmatrices}[*,solPythonClass]
+%\exercita{load}{programacion.estructurasDatos.cadenasCaracteres}[*]
+%\exercita{load}{matematicas.algebra.polinomios.implementacion}[definicion,sumaPolinomios,multPolinomios,solPython-sinComentar]
+\exercita{load}{recreativos.monstruos}[Tipos,SeleccionaMonstruos,Generacion]
+\exercita{load}{matematicas.analisis.diferenciasFinitas}[*,solC]
+\exercita{load}{matematicas.algebra.polinomios.implementacion}[*]
+
+%\exercita{load}{matematicas.logica.sistemaMG{label=*}}[*,solPython]
+
+% \exercita{load}{programacion.ordenacion.traza}[seleccion,piSeleccion,ejSeleccion,%
+%                                                insercion,piInsercion,ejInsercion,%
+%                                                mezcla,piMezcla,ejMezcla,%
+%                                                ,solC]
+
+
+\exercita{load}{matematicas.algebra.coleccionandoVectores}[tipos,cubrev,matriz,cubrec,reducir,solC]
+\exercita{load}{graficos.modelos-color-sin-literatura}[*]
+
+\section*{Algunos ejercicios más largos}
+
+\exercita{load}{recreativos.juegoAhorcado}[*,solPython]
+
+\exercita{load}{recreativos.juego-vida{label=*}}[tipos,vecinos,pisVecinos,sigEstado,pisSigEstado,dibujo,estadosIniciales,pisEstadosIniciales,programa,variantes,solC]
+
+
+% largos
+
+%\exercita{load}{criptografia.scitala{label=*}}[*,solC]
+
+\exercita{load}{practicos.metro.caminos{label=*}}[*]
+
+\bibliographystyle{alpha}
+
+\end{document}
